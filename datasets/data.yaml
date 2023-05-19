@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 4
+names: ['Blue', 'Box', 'Damaged_box', 'Damged_box']
+
+roboflow:
+  workspace: evgeniy-hramkov-qzz5s
+  project: box-search-v2.0-kn85g
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/evgeniy-hramkov-qzz5s/box-search-v2.0-kn85g/dataset/1
